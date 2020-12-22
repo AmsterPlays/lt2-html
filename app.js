@@ -6,16 +6,15 @@ var appTabs = [
     "Other",
 ];
 
-sidebarItem = document.getElementsByClassName("sidebar-item");
-
-for (i = 0; i < sidebarItem.length; i++) {
-    sidebarItem[i].setAttribute(
-        "onclick",
-        "switchTab('" + sidebarItem[i].innerText + "');"
-    );
+const sidebarItems = document.querySelectorAll(".sidebar-item")
+for (const item of sidebarItems) {
+  item.addEventListener('click', function(event) {
+    switchTab(item.innerText);
+  })
 }
 
-async function switchTab(tabName, event) {
+
+async function switchTab(tabName) {
     var infoPanel = document.querySelector(".main-info-panel");
     infoPanel.style.display = "none";
     var isAppTab = false;
@@ -42,4 +41,7 @@ async function switchTab(tabName, event) {
     }
 }
 
+function reload() {
+	window.location.reload();
+}
 

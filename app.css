@@ -13,6 +13,7 @@ body {
 
 button {
     -webkit-app-region: no-drag;
+	outline: none;
 }
 
 * {
@@ -128,6 +129,24 @@ a {
     text-decoration: none;
 }
 
+::-webkit-scrollbar {
+    height: 95vw;
+    width: 12px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgba(0,0,0,0.1);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+
+    background: rgba(0,0,0,0.6);
+}
+
 .main-container {
     height: 100vh;
     display: none;
@@ -142,6 +161,8 @@ a {
 .app-grid {
     flex: 1;
     margin: 7.5px;
+	display: grid;
+	grid-template-columns: repeat(5,150px);
 }
 
 .app-card {
