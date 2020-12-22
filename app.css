@@ -4,7 +4,7 @@
 }
 
 body {
-    background: #36393F;
+    background: #2F3136;
     display: flex;
     flex-direction: column;
     margin: 0px !important;
@@ -81,6 +81,8 @@ button {
 .main {
     flex: 1;
     color: rgba(255, 255, 255, 85%);
+    background: #36393F;
+
 }
 
 .main-info-panel {
@@ -129,29 +131,30 @@ a {
     text-decoration: none;
 }
 
+.titleContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.flexStretch {
+    flex: 1;
+}
 ::-webkit-scrollbar {
-    height: 95vw;
     width: 12px;
 }
  
 /* Track */
 ::-webkit-scrollbar-track {
     background: rgba(0,0,0,0.1);
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
 }
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
 
     background: rgba(0,0,0,0.6);
-}
+} 
 
-.main-container {
-    height: 100vh;
-    display: none;
-    flex-direction: column;
-}
+
 
 .main-title {
     margin: 15px 0px 0px 20px;
@@ -162,7 +165,7 @@ a {
     flex: 1;
     margin: 7.5px;
 	display: grid;
-	grid-template-columns: repeat(5,150px);
+	grid-template-columns: repeat(4,150px);
 }
 
 .app-card {
@@ -201,4 +204,14 @@ a {
     height: 30px;
     margin-top: 5px;
     background: linear-gradient(270deg, #36D1DC, #5B86E5);
+}
+
+.main-container {
+    display: none;
+    flex-direction: column;
+
+}
+
+.mg20 {
+    margin: 20px;
 }

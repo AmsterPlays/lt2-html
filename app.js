@@ -8,13 +8,12 @@ var appTabs = [
 
 const sidebarItems = document.querySelectorAll(".sidebar-item")
 for (const item of sidebarItems) {
-  item.addEventListener('click', function(event) {
-    switchTab(item.innerText);
-  })
+  item.setAttribute("onclick", `switchTab('${item.innerText}')`);
 }
 
 
 async function switchTab(tabName) {
+    console.log("called")
     var infoPanel = document.querySelector(".main-info-panel");
     infoPanel.style.display = "none";
     var isAppTab = false;
