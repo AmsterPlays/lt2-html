@@ -5,6 +5,7 @@ var appTabs = [
     "Games/Emulators",
     "Other",
 ];
+var queue
 
 const sidebarItems = document.querySelectorAll(".sidebar-item")
 for (const item of sidebarItems) {
@@ -26,7 +27,7 @@ async function switchTab(tabName) {
         document.querySelector(".dynamicAppPanel").style.display = "flex";
         document.querySelector(".dynamicAppTitle").innerText = tabName;
         var appGrid = document.querySelector(".dynamicAppGrid");
-        var appJson = JSON.parse(await csAPI.getAppList());
+        var appJson = JSON.parse(await csAPI.getProp("appdist"));
 		var tabAppJson = [];
 		  appJson.forEach(function(obj) {
 			if (obj.Category == tabName) {
@@ -44,3 +45,6 @@ function reload() {
 	window.location.reload();
 }
 
+function installQueue(eventType, appID) {
+    
+}
