@@ -53,6 +53,7 @@ button {
     font-size: 16px;
     display: flex;
     align-items: center;
+    transition:background .1s ease-in;
 }
 
 .sidebar-item:hover {
@@ -403,12 +404,17 @@ a {
     height: 60px;
     border: 0;
     border-radius: 4px;
-    box-shadow: -5px 5px 15px -4px rgba(0, 0, 0, 0.5);
+    box-shadow: -2px 2px 15px -4px rgba(0, 0, 0, 0.5);
     margin: 0px 10px 5px 10px;
     display: flex;
     align-items: center;
     flex-direction: row;
     justify-content: center;
+    transition: box-shadow .1s;
+}
+
+.dwnl-item-card:hover{
+    box-shadow:-10px 10px 15px -4px rgba(0,0,0,0.5);
 }
 
 .dwnl-card-textsector {
