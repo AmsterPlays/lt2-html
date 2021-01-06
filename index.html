@@ -12,39 +12,70 @@
 <body>
     <div class="app">
         <div class="sidebar">
-            <img class="logo" src="./assets/lt.png"></img>
+            <h1 class="logotext sidebar-logo">LucidTools</h1>
             <button class="sidebar-item"><img class="emoji" src="./assets/emoji/megaphone.png"></img>Featured</button>
             <span class="sidebar-seperator">Applications</span>
             <button class="sidebar-item"><img class="emoji" src="./assets/emoji/package.png"></img>Utilities</button>
             <button class="sidebar-item"><img class="emoji" src="./assets/emoji/disguised.png"></img>Hacking/Cheats</button>
             <button class="sidebar-item"><img class="emoji" src="./assets/emoji/games.png"></img>Games/Emulators</button>
             <button class="sidebar-item"><img class="emoji" src="./assets/emoji/package.png"></img>Other</button>
-			<span class="sidebar-seperator">Other</span>
+            <span class="sidebar-seperator">Custom Stuff</span>
             <button class="sidebar-item"><img class="emoji" src="./assets/emoji/script.png"></img>Custom Apps</button>
-			<button class="sidebar-item"><img class="emoji" src="./assets/emoji/store.png"></img>Community Store</button>
-			<button class="sidebar-item"><img class="emoji" src="./assets/emoji/folder.png"></img>Save Manager</button>
-            <span class="sidebar-seperator">Settings</span>
+            <button class="sidebar-item"><img class="emoji" src="./assets/emoji/store.png"></img>Community Store</button>
+            <button class="sidebar-item"><img class="emoji" src="./assets/emoji/folder.png"></img>Save Manager</button>
+            <span class="sidebar-seperator">Settings/Other</span>
             <button class="sidebar-item"><img class="emoji" src="./assets/emoji/paint.png"></img>Themes</button>
             <button class="sidebar-item"><img class="emoji" src="./assets/emoji/rocket.png"></img>LucidSync</button>
             <button class="sidebar-item"><img class="emoji" src="./assets/emoji/info.png"></img>About</button>
+            <button class="sidebar-item bottomItem"><img class="emoji" src="./assets/emoji/downloads.png"></img>Downloads</button>
+
         </div>
         <div class="main">
             <div class="main-info-panel">
-                <h1>LucidTools</h1>
+                <h1 class="logotext">LucidTools</h1>
                 <h4>Select a category from the side to start!</h4>
             </div>
 
             <div class="main-container dynamicAppPanel">
-                <div class="dwnl-fab"><span class="material-icons-round">
-                    get_app
-                    </span></div>
-                <div class="titleContainer">                
+                <div class="titleContainer">
                     <h1 class="main-title dynamicAppTitle">Featured Apps</h1>
-                    <div class="flexStretch"></div>
-                    <div class="app-btn mg20" onclick="alert('owo');">List Mode</div>
+                    <!-- <div class="flexStretch"></div> -->
+                    <!-- <div class="app-btn mg20" onclick="alert('owo');">List Mode</div> -->
                 </div>
                 <div class="app-grid dynamicAppGrid">
+                </div>
+            </div>
+            <div class="main-container dynamicDownloadsPanel">
+                <div class="titleContainer">
+                    <h1 class="main-title">Downloads</h1>
+                </div>
+                <div class="dwnl-grid dynamicDownloadsGrid">
+                    <div class="dwnl-item-card">
+                        <img class="app-icon" src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/48x48/apps/firefox.svg">
+                        <div class="dwnl-card-textsector">
+                            <span class="dwnl-card-title">Firefox</span>
+                            <span class="dwnl-card-subtitle">75% Downloaded - v79.21.2 - 543MB</span></div>
+                        <div class="flexStretch"></div>
+                        <div class="app-btn dwnl-card-btn" onclick="alert('owo');">Cancel</div>
+                    </div>
 
+                    <div class="dwnl-item-card">
+                        <img class="app-icon" src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/48x48/apps/google-chrome.svg">
+                        <div class="dwnl-card-textsector">
+                            <span class="dwnl-card-title">Chrome</span>
+                            <span class="dwnl-card-subtitle">32% Extracted - v91.2 - 5.2GB</span></div>
+                        <div class="flexStretch"></div>
+                        <div class="app-btn dwnl-card-btn" onclick="alert('owo');">Cancel</div>
+                    </div>
+
+                    <div class="dwnl-item-card">
+                        <img class="app-icon" src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/48x48/apps/anydesk.svg">
+                        <div class="dwnl-card-textsector">
+                            <span class="dwnl-card-title">Anydesk</span>
+                            <span class="dwnl-card-subtitle">Queued - v52.69 - 58MB</span></div>
+                        <div class="flexStretch"></div>
+                        <div class="app-btn dwnl-card-btn" onclick="alert('owo');">Cancel</div>
+                    </div>
                 </div>
             </div>
         </div>

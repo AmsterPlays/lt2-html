@@ -1,0 +1,128 @@
+< div class="app-card">
+    < img class="app-icon" src="${obj.Icon}">
+        < /img><span class="app-text">DemoName</span > < div class = "app-btn"
+onclick = "alert('owo');" > Demo Button < /div></div >
+    <
+    div class = "app-card" > < img class = "app-icon"
+src = "${obj.Icon}" > < /img><span class="app-text">DemoName</span > < div class = "app-btn"
+onclick = "alert('owo');" > Demo Button < /div></div >
+    <
+    div class = "app-card" > < img class = "app-icon"
+src = "${obj.Icon}" > < /img><span class="app-text">DemoName</span > < div class = "app-btn"
+onclick = "alert('owo');" > Demo Button < /div></div >
+    <
+    div class = "app-card" > < img class = "app-icon"
+src = "${obj.Icon}" > < /img><span class="app-text">DemoName</span > < div class = "app-btn"
+onclick = "alert('owo');" > Demo Button < /div></div >
+    <
+    div class = "app-card" > < img class = "app-icon"
+src = "${obj.Icon}" > < /img><span class="app-text">DemoName</span > < div class = "app-btn"
+onclick = "alert('owo');" > Demo Button < /div></div >
+    <
+    div class = "app-card" > < img class = "app-icon"
+src = "${obj.Icon}" > < /img><span class="app-text">DemoName</span > < div class = "app-btn"
+onclick = "alert('owo');" > Demo Button < /div></div >
+    <
+    div class = "app-card" > < img class = "app-icon"
+src = "${obj.Icon}" > < /img><span class="app-text">DemoName</span > < div class = "app-btn"
+onclick = "alert('owo');" > Demo Button < /div></div >
+    <
+    div class = "app-card" > < img class = "app-icon"
+src = "${obj.Icon}" > < /img><span class="app-text">DemoName</span > < div class = "app-btn"
+onclick = "alert('owo');" > Demo Button < /div></div >
+    <
+    div class = "app-card" > < img class = "app-icon"
+src = "${obj.Icon}" > < /img><span class="app-text">DemoName</span > < div class = "app-btn"
+onclick = "alert('owo');" > Demo Button < /div></div >
+    <
+    div class = "app-card" > < img class = "app-icon"
+src = "${obj.Icon}" > < /img><span class="app-text">DemoName</span > < div class = "app-btn"
+onclick = "alert('owo');" > Demo Button < /div></div >
+    <
+    div class = "app-card" > < img class = "app-icon"
+src = "${obj.Icon}" > < /img><span class="app-text">DemoName</span > < div class = "app-btn"
+onclick = "alert('owo');" > Demo Button < /div></div >
+    <
+    div class = "app-card" > < img class = "app-icon"
+src = "${obj.Icon}" > < /img><span class="app-text">DemoName</span > < div class = "app-btn"
+onclick = "alert('owo');" > Demo Button < /div></div >
+    <
+    div class = "app-card" > < img class = "app-icon"
+src = "${obj.Icon}" > < /img><span class="app-text">DemoName</span > < div class = "app-btn"
+onclick = "alert('owo');" > Demo Button < /div></div >
+    <
+    div class = "app-card" > < img class = "app-icon"
+src = "${obj.Icon}" > < /img><span class="app-text">DemoName</span > < div class = "app-btn"
+onclick = "alert('owo');" > Demo Button < /div></div >
+    <
+    div class = "app-card" > < img class = "app-icon"
+src = "${obj.Icon}" > < /img><span class="app-text">DemoName</span > < div class = "app-btn"
+onclick = "alert('owo');" > Demo Button < /div></div >
+    <
+    div class = "app-card" > < img class = "app-icon"
+src = "${obj.Icon}" > < /img><span class="app-text">DemoName</span > < div class = "app-btn"
+onclick = "alert('owo');" > Demo Button < /div></div >
+    <
+    div class = "app-card" > < img class = "app-icon"
+src = "${obj.Icon}" > < /img><span class="app-text">DemoName</span > < div class = "app-btn"
+onclick = "alert('owo');" > Demo Button < /div></div >
+    <
+    div class = "app-card" > < img class = "app-icon"
+src = "${obj.Icon}" > < /img><span class="app-text">DemoName</span > < div class = "app-btn"
+onclick = "alert('owo');" > Demo Button < /div></div >
+    <
+    div class = "app-card" > < img class = "app-icon"
+src = "${obj.Icon}" > < /img><span class="app-text">DemoName</span > < div class = "app-btn"
+onclick = "alert('owo');" > Demo Button < /div></div >
+    <
+    div class = "app-card" > < img class = "app-icon"
+src = "${obj.Icon}" > < /img><span class="app-text">DemoName</span > < div class = "app-btn"
+onclick = "alert('owo');" > Demo Button < /div></div >
+    <
+    div class = "app-card" > < img class = "app-icon"
+src = "${obj.Icon}" > < /img><span class="app-text">DemoName</span > < div class = "app-btn"
+onclick = "alert('owo');" > Demo Button < /div></div >
+    <
+    div class = "app-card" > < img class = "app-icon"
+src = "${obj.Icon}" > < /img><span class="app-text">DemoName</span > < div class = "app-btn"
+onclick = "alert('owo');" > Demo Button < /div></div >
+    <
+    div class = "app-card" > < img class = "app-icon"
+src = "${obj.Icon}" > < /img><span class="app-text">DemoName</span > < div class = "app-btn"
+onclick = "alert('owo');" > Demo Button < /div></div >
+    <
+    div class = "app-card" > < img class = "app-icon"
+src = "${obj.Icon}" > < /img><span class="app-text">DemoName</span > < div class = "app-btn"
+onclick = "alert('owo');" > Demo Button < /div></div >
+    <
+    div class = "app-card" > < img class = "app-icon"
+src = "${obj.Icon}" > < /img><span class="app-text">DemoName</span > < div class = "app-btn"
+onclick = "alert('owo');" > Demo Button < /div></div >
+    <
+    div class = "app-card" > < img class = "app-icon"
+src = "${obj.Icon}" > < /img><span class="app-text">DemoName</span > < div class = "app-btn"
+onclick = "alert('owo');" > Demo Button < /div></div >
+    <
+    div class = "app-card" > < img class = "app-icon"
+src = "${obj.Icon}" > < /img><span class="app-text">DemoName</span > < div class = "app-btn"
+onclick = "alert('owo');" > Demo Button < /div></div >
+
+
+    
+        /* <div class="dwnl-panel">
+        <div class="flex">
+            <h3 class="dwnl-title">Downloads</h3>
+            <div class="flexStretch"></div>
+            <span class="material-icons-round dwnl-close-btn">
+                close
+            </span>
+            </div>
+            <div class="dwnl-item-card">
+                <img class="app-icon" src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/48x48/apps/firefox.svg">
+                <div class="dwnl-card-textsector">
+                    <span class="dwnl-card-title">Firefox</span>
+                    <span class="dwnl-card-subtitle">75% Downloaded</span></div>
+                <div class="flexStretch"></div>
+                <div class="app-btn dwnl-card-btn" onclick="alert('owo');">Cancel</div>
+            </div>
+            </div> */

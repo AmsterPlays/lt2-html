@@ -13,7 +13,7 @@ body {
 
 button {
     -webkit-app-region: no-drag;
-	outline: none;
+    outline: none;
 }
 
 * {
@@ -51,8 +51,8 @@ button {
     color: rgba(255, 255, 255, 85%);
     font-weight: 400;
     font-size: 16px;
-	display: flex;
-	align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .sidebar-item:hover {
@@ -70,7 +70,7 @@ button {
 
 .emoji {
     margin: 0px 10px;
-	width: 18px;
+    width: 18px;
 }
 
 .app {
@@ -82,7 +82,6 @@ button {
     flex: 1;
     color: rgba(255, 255, 255, 85%);
     background: #36393F;
-
 }
 
 .main-info-panel {
@@ -100,11 +99,11 @@ button {
     font-size: 120%;
 }
 
-.main-info-panel>h1 {
+.logotext {
     margin: 0;
     font-size: 300%;
     font-family: 'LogoFont';
-    background: linear-gradient(270deg, rgb(47,127,232), rgb(146,93,246));
+    background: linear-gradient(270deg, rgb(47, 127, 232), rgb(146, 93, 246));
     background-size: 400% 400%;
     -webkit-animation: RainbowTextAnim 5s ease infinite;
     animation: RainbowTextAnim 4s ease infinite;
@@ -139,22 +138,18 @@ a {
 .flexStretch {
     flex: 1;
 }
+
 ::-webkit-scrollbar {
     width: 12px;
 }
- 
-/* Track */
+
 ::-webkit-scrollbar-track {
-    background: rgba(0,0,0,0.1);
+    background: rgba(0, 0, 0, 0.1);
 }
- 
-/* Handle */
+
 ::-webkit-scrollbar-thumb {
-
-    background: rgba(0,0,0,0.6);
-} 
-
-
+    background: rgba(0, 0, 0, 0.6);
+}
 
 .main-title {
     margin: 15px 0px 0px 20px;
@@ -164,8 +159,8 @@ a {
 .app-grid {
     flex: 1;
     margin: 7.5px;
-	display: grid;
-	grid-template-columns: repeat(4,150px);
+    display: grid;
+    grid-template-columns: repeat(4, 150px);
 }
 
 .app-card {
@@ -182,9 +177,9 @@ a {
 }
 
 .app-icon {
-    width: 100px;
-    height: 100px;
-    margin-top: 10px;
+    width: 48px;
+    height: 48px;
+    margin-left: 10px;
 }
 
 .app-text {
@@ -202,14 +197,13 @@ a {
     width: 120px;
     text-align: center;
     height: 30px;
-    margin-top: 5px;
-    background: linear-gradient(270deg, rgb(47,127,232), rgb(146,93,246));
+    background: linear-gradient(270deg, rgb(47, 127, 232), rgb(146, 93, 246));
+    box-shadow: -1px 5px 15px -4px rgba(0, 0, 0, 0.5);
 }
 
 .main-container {
     display: none;
     flex-direction: column;
-
 }
 
 .mg20 {
@@ -217,24 +211,108 @@ a {
 }
 
 .dwnl-fab {
-    position:fixed;
-    width:40px;
-    height:40px;
-    bottom:20px;
-    right:20px;
-    background: rgb(47,127,232);
-    color:#FFF;
-    border-radius:50px;
-    text-align:center;
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(47, 127, 232);
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
     box-shadow: -1px 5px 15px -4px rgba(0, 0, 0, 0.5);
-
 }
 
 .dwnl-fab:hover {
     box-shadow: -5px 5px 15px -4px rgba(0, 0, 0, 0.5);
+}
 
+.dwnl-panel {
+    font-weight: 400;
+    margin: 0;
+    font-size: 130%;
+    position: fixed;
+    width: 275px;
+    height: 350px;
+    bottom: 10px;
+    right: 10px;
+    background: rgb(57 63 70);
+    color: #FFF;
+    border-radius: 5px;
+    display: none;
+    box-shadow: -1px 5px 15px -4px rgba(0, 0, 0, 0.5);
+    flex-direction: column;
+}
 
+.dwnl-item-card {
+    background: rgba(221, 221, 221, 13%);
+    height: 60px;
+    border: 0;
+    border-radius: 4px;
+    box-shadow: -5px 5px 15px -4px rgba(0, 0, 0, 0.5);
+    margin: 0px 10px 5px 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.dwnl-card-textsector {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.dwnl-card-title {
+    font-weight: 450;
+    font-size: 110%;
+    color: rgba(255, 255, 255, 80%);
+    margin-left: 5px;
+}
+
+.dwnl-card-subtitle {
+    font-weight: 300;
+    font-size: 80%;
+    color: rgba(255, 255, 255, 60%);
+    margin-left: 5px;
+}
+
+.dwnl-card-btn {
+    width: 90px;
+    margin-right: 10px;
+    font-size: 100%;
+}
+
+.dwnl-title {
+    font-weight: 300;
+    font-size: 100%;
+    margin: 0;
+    padding: 10px;
+}
+
+.flex {
+    display: flex;
+}
+
+.dwnl-close-btn {
+    margin: 10px;
+}
+
+.bottomItem {
+    margin-bottom: 20px;
+}
+
+.sidebar-logo {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 110%;
+}
+
+.dwnl-grid {
+    flex: 1;
+    margin: 7.5px;
+    display: grid;
 }
