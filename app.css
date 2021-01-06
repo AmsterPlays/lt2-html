@@ -190,47 +190,107 @@ a {
 
 .logotext{
     overflow: hidden;
-    position:relative;
+    position: relative;
+    width:50%;
 }
 
+.logotext2:after {
+    content: "";
+    position: absolute;
+    top: -110%;
+    left: -210%;
+    width: 200%;
+    height: 200%;
+    opacity: 1;
+    transform: rotate(30deg);
+    transition-property: left, top, opacity;
+    transition-duration: 0.7s, 0.7s, 0.15s;
+    background: rgba(255, 255, 255, 0.13);
+    background: linear-gradient(
+      to right, 
+      rgba(255, 255, 255, 0.13) 0%,
+      rgba(255, 255, 255, 0.13) 77%,
+      rgba(255, 255, 255, 0.5) 92%,
+      rgba(255, 255, 255, 0.0) 100%
+    );
+  }
+
+  /* Hover state - trigger effect */
+
+  .logotext2:hover:after {
+    opacity: 1;
+    top: -30%;
+    left: 42%;
+    transition-property: left, top, opacity;
+    transition-duration: 0.7s, 0.7s, 0.15s;
+    transition-timing-function: ease;
+  }
+
+  /* Active state */
+
+  .logotext2:active:after {
+    opacity: 0;
+  }
+
+.logotext2{
+    overflow: hidden;
+    position: relative;
+    width:50%;
+}
+
+.logotext2 {
+    margin: 0;
+    font-size: 300%;
+    font-family: 'LogoFont';
+    background: linear-gradient(270deg, rgb(47, 127, 232), rgb(146, 93, 246));
+    background-size: 400% 400%;
+    -webkit-animation: RainbowTextAnim 5s ease infinite;
+    animation: RainbowTextAnim 4s ease infinite;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 83%;
+    text-align: center;
+}
+
+
 .logotext:after {
-        content: "";
-        position: absolute;
-        top: -110%;
-        left: -210%;
-        width: 200%;
-        height: 200%;
-        opacity: 1;
-        transform: rotate(30deg);
-        transition-property: left, top, opacity;
-        transition-duration: 0.7s, 0.7s, 0.15s;
-        
-        background: rgba(255, 255, 255, 0.13);
-        background: linear-gradient(
-          to right, 
-          rgba(255, 255, 255, 0.13) 0%,
-          rgba(255, 255, 255, 0.13) 77%,
-          rgba(255, 255, 255, 0.5) 92%,
-          rgba(255, 255, 255, 0.0) 100%
-        );
-      }
-      
-      /* Hover state - trigger effect */
-      
-      .logotext:hover:after {
-        opacity: 1;
-        top: -30%;
-        left: 42%;
-        transition-property: left, top, opacity;
-        transition-duration: 0.7s, 0.7s, 0.15s;
-        transition-timing-function: ease;
-      }
-      
-      /* Active state */
-      
-      .logotext:active:after {
-        opacity: 0;
-      }
+    content: "";
+    position: absolute;
+    top: -110%;
+    left: -210%;
+    width: 200%;
+    height: 200%;
+    opacity: 1;
+    transform: rotate(30deg);
+    transition-property: left, top, opacity;
+    transition-duration: 0.7s, 0.7s, 0.15s;
+    background: rgba(255, 255, 255, 0.13);
+    background: linear-gradient(
+      to right, 
+      rgba(255, 255, 255, 0.13) 0%,
+      rgba(255, 255, 255, 0.13) 77%,
+      rgba(255, 255, 255, 0.5) 92%,
+      rgba(255, 255, 255, 0.0) 100%
+    );
+  }
+
+  /* Hover state - trigger effect */
+
+  .logotext:hover:after {
+    opacity: 1;
+    top: -30%;
+    left: 42%;
+    transition-property: left, top, opacity;
+    transition-duration: 0.7s, 0.7s, 0.15s;
+    transition-timing-function: ease;
+  }
+
+  /* Active state */
+
+  .logotext:active:after {
+    opacity: 0;
+  }
 
 .app-btn {
     color:white;
