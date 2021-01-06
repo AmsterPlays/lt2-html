@@ -353,6 +353,61 @@ a {
     }
   }
 
+  .sidebar-item {
+    color:white;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    opacity:1;
+    transition: opacity .2s;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    border: 0;
+    border-radius: 4px;
+    width: 120px;
+    text-align: center;
+    height: 30px;
+    transition: box-shadow 0.17s ease-out;
+}
+
+.sidebar-item::after {
+    display: none;
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.3);
+    
+    width: 100px;
+    height: 100px;
+    margin-top: -50px;
+    margin-left: -50px;
+    
+    /* Center the ripple */
+    top: 50%;
+    left: 50%;
+  
+    animation: ripple .8s;
+    opacity: 0;
+  }
+
+.sidebar-item:focus:not(:active)::after {
+    display: block;
+  }
+
+@keyframes ripple {
+    from {
+      opacity: 1;
+      transform: scale(0);
+    }
+    to {
+      opacity: 0;
+      transform: scale(10);
+    }
+  }
+
 .main-container {
     display: none;
     flex-direction: column;
@@ -415,6 +470,10 @@ a {
 
 .dwnl-item-card:hover{
     box-shadow:-10px 10px 15px -4px rgba(0,0,0,0.5);
+}
+
+.sidebar-item:hover{
+    box-shadow:-5px 5px 15px -4px rgba(0,0,0,0.2);
 }
 
 .dwnl-card-textsector {
